@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+    background-color: white;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-screenshot-image{
+    width: 400px;
+}
+
+
+.form-div{
+    
+    font-weight: 50;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.292);
+    margin: 20px 50px 20px 50px;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 50vh;
+    background-color: white;
+}
+
+.form-div div{
+    margin: 10px;
+}
+
+.form-div form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-div form input{
+    border: 1px solid rgba(0, 0, 0, 0.292);
+    background-color:#f2f2f2;
+    border-color: #cfcfcf;
+    width: 140%;
+    height: 25px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.separator{
+    width: 70%;
+}
+
+.separator-text{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(134, 133, 133);
+    position: relative;
+    top: -10px;
+    left: 90px; 
+    background-color: white;
+    padding: 0px 25px;
+}
+
+#line{
+    color:rgba(134, 133, 133, 0.173);
+}
+
+#login-button{
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 166, 255);
+    border: 0px;
+    width: 145%;
+    height: 30px;
+    margin: 10px;
+}
+
+#login-button:hover{
+    background-color: rgb(2, 121, 185);
+}
+
+.facebook-login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook-icon{
+    margin: 2px 10px;
+    width: 15px;
+    height: auto;
+}
+
+.instagram-icon{
+    margin: 30px 20px;
+    width: 50%;
+    height: auto;
+}
+
+.forgot-pass-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.alt-link-text{
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.alt-link-text a{
+    color: #385185;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#sign-up-link{
+    color: blue;
+    font-size: 14px;
+    color:rgb(0, 166, 255);
+}
+
+#facebook-text a{
+    font-weight: 600;
+    font-size: 13px;
+}
+
+
+#mobile-div{
+    background-color: rgba(245, 222, 179, 0);
+    border: 0px;
+}
+
+.mobile-alternatives-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.mobile-alternatives-div img{
+    margin: 0px 10px;
+    height: 40px;
+    width: auto;
+}
+
+.mb-alt{
+    width: 120px;
+    height: auto;
+}
+
+footer{
+    line-height: 30px;
+}
+
+.footer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: gray;
+}
+
+.footer-div a{
+    text-decoration: none;
+    margin: 5px;
+    color: gray;
+}
+
+.footer-div h4{
+    text-decoration: none;
+    margin: 5px;
+    color: gray;
+}
+
+@media screen and (max-width: 425px){
+    .instagram-icon{
+        margin: 30px 20px;
+        width: 70%;
+        height: auto;
+    }
+
+    .div-screenshot{
+        display: none;
+    }
+
+    .form-div form input{
+        border: 1px solid rgba(0, 0, 0, 0.292);
+        background-color:#f2f2f2;
+        border-color: #cfcfcf;
+        width: 140%;
+        height: 25px;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .form-div{
+    
+        font-weight: 50;
+        border-radius: 5px;
+        border: 0px solid rgba(0, 0, 0, 0.292);
+        margin: 20px 50px 20px 50px;
+        padding: 20px 0px 20px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 30vh;
+        background-color: white;
+    }
+
+    footer{
+        text-align: center;
+        margin: 20px;
+    }
+
+    .separator{
+        width: 100%;
+    }
+
+    .separator-text{
+        position: relative;
+        top: -10px;
+        left: 90px;
+    }
+
+
+}
